@@ -88,7 +88,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    command(["تشغيل"])
+    command(["شغل"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -163,7 +163,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="قناة السورس",
-                            url=f"https://t.me/jmthon")
+                            url=f"https://t.me/N_B_10")
                ]
             ]
         )
@@ -201,7 +201,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="قناة السورس",
-                            url=f"https://t.me/jmthon")
+                            url=f"https://t.me/N_B_10")
                ]
             ]
         )
@@ -216,7 +216,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="قناة السورس",
-                            url=f"https://t.me/jmthon")
+                            url=f"https://t.me/N_B_10")
                ]
             ]
         )
@@ -269,7 +269,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="قناة السورس",
-                            url=f"https://t.me/jmthon")
+                            url=f"https://t.me/N_B_10")
                ]
                ]
         )
