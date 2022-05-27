@@ -24,7 +24,7 @@ do = requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/getChatMember?chat_i
             [
                 [
                     InlineKeyboardButton(
-                        "قناة السورس", url=f"https://t.me/jmthon")
+                        "قناة السورس", url=f"https://t.me/N_B_10")
                 ]
                 
            ]
@@ -64,7 +64,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "قناة السورس", url=f"https://t.me/jmthon")
+                        "قناة السورس", url=f"https://t.me/N_B_10")
                 ]
             ]
         ),
