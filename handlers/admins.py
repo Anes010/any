@@ -29,7 +29,7 @@ async def resume(_, message: Message):
     await message.reply_text("**⪼ تم الاستئناف بنجاح**️")
 
 
-@Client.on_message(command(["انهاء"]) & other_filters)
+@Client.on_message(command(["انهاء", "اوكف"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
